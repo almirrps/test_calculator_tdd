@@ -19,5 +19,5 @@ def power(base: float, exponent: float) -> float:
 
 def square_root(n: float) -> float:
     if n < 0:
-        raise ValueError("There is no real square root for a negative number")
+        raise ValueError("There is not real square root for a negative number")
     return math.sqrt(n)
